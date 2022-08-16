@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc-secretsmanager:mysql://${DB_HOST}:3306/${DB_SCHEMA}
+    username: ${SECRET}
+    driver-class-name: com.amazonaws.secretsmanager.sql.AWSSecretsManagerMySQLDriver
+  liquibase:
+    enabled: true

@@ -1,0 +1,4 @@
+com/luanvv/aws/rdssecrets/RdssecretsApplication.class
+com/luanvv/aws/rdssecrets/Runner.class
+com/luanvv/aws/rdssecrets/User.class
+com/luanvv/aws/rdssecrets/UserController.class
